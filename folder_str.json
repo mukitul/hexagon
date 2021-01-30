@@ -1,0 +1,66 @@
+{
+    "com_name": "com",
+    "project_name": "auth",
+    "pkg": [
+        {
+            "name": "user",
+            "layer1": [
+                {
+                    "name": "adapter",
+                    "layer2": [
+                        {
+                            "name": "in"
+                        },
+                        {
+                            "name": "out"
+                        }
+                    ]
+                },
+                {
+                    "name": "application",
+                    "layer2": [
+                        {
+                            "name": "port"
+                        },
+                        {
+                            "name": "service"
+                        }
+                    ]
+                },
+                {
+                    "name": "domain"
+                }
+            ]
+        },
+        {
+            "name": "bank",
+            "layer1": [
+                {
+                    "name": "adapter",
+                    "layer2": [
+                        {
+                            "name": "in"
+                        },
+                        {
+                            "name": "out"
+                        }
+                    ]
+                },
+                {
+                    "name": "application",
+                    "layer2": [
+                        {
+                            "name": "port"
+                        },
+                        {
+                            "name": "service"
+                        }
+                    ]
+                },
+                {
+                    "name": "domain"
+                }
+            ]
+        }
+    ]
+}
