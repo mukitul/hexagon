@@ -1,5 +1,5 @@
 {
-    "root":"C:/mukit",
+    "root": "C:/mukit",
     "name": "auth",
     "layer": [
         {
@@ -10,7 +10,12 @@
                     "layer": [
                         {
                             "name": "in",
-                            "layer": []
+                            "layer": [
+                                {
+                                    "name": "controller",
+                                    "layer": []
+                                }
+                            ]
                         },
                         {
                             "name": "out",
@@ -45,7 +50,12 @@
                     "layer": [
                         {
                             "name": "in",
-                            "layer": []
+                            "layer": [
+                                {
+                                    "name": "controller",
+                                    "layer": []
+                                }
+                            ]
                         },
                         {
                             "name": "out",
