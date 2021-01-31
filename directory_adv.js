@@ -1,16 +1,23 @@
 var fs = require('fs');
 
 let rawdata = fs.readFileSync('folder_str.json');
-let str = JSON.parse(rawdata);
-console.log(str.com_name);
+let hierarchy = JSON.parse(rawdata);
+//console.log(hierarchy.name);
 
-let visited = [];
+dfs(hierarchy.name, hierarchy.layer, hierarchy.root);
 
-function dfs(folderName){
-    visited.push(folderName);
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+
+function dfs(folderName, hierarchy, str) {
+
+
+    str = str + "/" + folderName;
+    if (!fs.existsSync(str)) {
+        fs.mkdirSync(str);
+        console.log(str);
     }
+
+    for (let index = 0; index < hierarchy.length; index++) {
+        dfs(hierarchy[index].name, hierarchy[index].layer, str);
+    }
+
 }
-fs.mkdirSync(str.com_name);

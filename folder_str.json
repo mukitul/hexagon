@@ -1,64 +1,74 @@
 {
-    "com_name": "com",
-    "project_name": "auth",
-    "pkg": [
+    "root":"G:/project",
+    "name": "auth",
+    "layer": [
         {
             "name": "user",
-            "layer1": [
+            "layer": [
                 {
                     "name": "adapter",
-                    "layer2": [
+                    "layer": [
                         {
-                            "name": "in"
+                            "name": "in",
+                            "layer": []
                         },
                         {
-                            "name": "out"
+                            "name": "out",
+                            "layer": []
                         }
                     ]
                 },
                 {
                     "name": "application",
-                    "layer2": [
+                    "layer": [
                         {
-                            "name": "port"
+                            "name": "port",
+                            "layer": []
                         },
                         {
-                            "name": "service"
+                            "name": "service",
+                            "layer": []
                         }
                     ]
                 },
                 {
-                    "name": "domain"
+                    "name": "domain",
+                    "layer": []
                 }
             ]
         },
         {
             "name": "bank",
-            "layer1": [
+            "layer": [
                 {
                     "name": "adapter",
-                    "layer2": [
+                    "layer": [
                         {
-                            "name": "in"
+                            "name": "in",
+                            "layer": []
                         },
                         {
-                            "name": "out"
+                            "name": "out",
+                            "layer": []
                         }
                     ]
                 },
                 {
                     "name": "application",
-                    "layer2": [
+                    "layer": [
                         {
-                            "name": "port"
+                            "name": "port",
+                            "layer": []
                         },
                         {
-                            "name": "service"
+                            "name": "service",
+                            "layer": []
                         }
                     ]
                 },
                 {
-                    "name": "domain"
+                    "name": "domain",
+                    "layer": []
                 }
             ]
         }
