@@ -1,49 +1,9 @@
 {
-    "root": "C:/mukit",
+    "root": ".",
     "name": "auth",
     "layer": [
         {
             "name": "user",
-            "layer": [
-                {
-                    "name": "adapter",
-                    "layer": [
-                        {
-                            "name": "in",
-                            "layer": [
-                                {
-                                    "name": "controller",
-                                    "layer": []
-                                }
-                            ]
-                        },
-                        {
-                            "name": "out",
-                            "layer": []
-                        }
-                    ]
-                },
-                {
-                    "name": "application",
-                    "layer": [
-                        {
-                            "name": "port",
-                            "layer": []
-                        },
-                        {
-                            "name": "service",
-                            "layer": []
-                        }
-                    ]
-                },
-                {
-                    "name": "domain",
-                    "layer": []
-                }
-            ]
-        },
-        {
-            "name": "bank",
             "layer": [
                 {
                     "name": "adapter",
